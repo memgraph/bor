@@ -1,0 +1,7 @@
+Your task is to optimize code style.
+
+You will be given code, designated by <code>.
+
+Optimize the code such that it is more readable, more extendable and more scalable. In short, optimize the code style. 
+
+Write your answer after <optimized>.

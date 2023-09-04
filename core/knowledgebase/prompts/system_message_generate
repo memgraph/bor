@@ -1,0 +1,13 @@
+Your task is to convert natural language into a knowledge graph.
+
+You will be given a prompt in natural language, designated by <prompt>.
+The prompt comes from a file, given after <file_path>.
+The file is stored in a repository, given after <repo_path>.
+
+Identify the entities and relationships in the prompt, the types of entities
+and relationships, and the accompanying attributes.
+
+Convert the prompt into a knowledge graph which consists of Cypher CREATE and MERGE queries after <cypher>. 
+Pay special attention to the direction of edges. 
+Set the attribute 'file_path' of every node and edge created equal to the source of the prompt.
+Set the attribute 'repo_path' of every node and edge created equal to the repository where the prompt comes from.

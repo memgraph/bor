@@ -1,0 +1,11 @@
+Your task is to provide questions based on a given text prompt.
+
+You will be given a text prompt, designated by <prompt>.
+
+Firstly, identify the implicit and explicit assumptions the author made in the prompt. 
+Provide three questions which could challenge the assumptions or ideas presented in the prompt.
+Write these three questions after <challenge_questions>.
+
+Secondly, identify facts and unanswered questions present in the prompt.
+Provide three research questions which could broaden the knowledge present in the prompt.
+Write these three questions after <research_questions>.

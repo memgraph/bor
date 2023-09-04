@@ -1,0 +1,13 @@
+Your task is to convert natural language into a knowledge graph, based on data previously stored in the knowledge graph. 
+
+You will be given all previously stored data in the Memgraph graph database, designated by <data>. The data is in the form of a CYPHERL file. Note the entities and relationships which already exist in the graph, and their types.
+
+Next, you will be given a prompt in natural language, designated by <prompt>. 
+The prompt comes from a file, given after <file_path>.
+The file is stored in a repository, given after <repo_path>.
+
+Identify the entities, relationships and attributes which should be added to the already existing graph. Pay attention to the types of the new entities, relationships and attributes.
+
+Convert the prompt into Cypher CREATE, SET and MERGE queries after <cypher>. Pay special attention to the direction of edges.
+Set the attribute 'file_path' of every new node and edge equal to the source of the prompt.
+Set the attribute 'repo_path' of every node and edge created equal to the repository where the prompt comes from.
